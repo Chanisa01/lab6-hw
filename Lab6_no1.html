@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function plus(){
+                let numberInput1 = document.getElementById("number1");
+                let Num1 = numberInput1.value;
+
+                let numberInput2 = document.getElementById("number2");
+                let Num2 = numberInput2.value;
+                
+                let sum = document.getElementById("SUM");
+                sum.value = parseInt(Num1)+parseInt(Num2);
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="text" id="number1"> +
+            <input type="text" id="number2"> =
+            <input type="text" id="SUM">
+            <input type="button" value="Go Go" onclick="plus()">
+        </form>
+    </body>
+</html>

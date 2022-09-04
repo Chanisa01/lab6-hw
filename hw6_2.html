@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function green(id){
+                let change = document.getElementById(id);
+                change.style.color="green";
+            }
+        </script>
+    </head>
+    <body>
+       Name: <input type="text" id="Name" onchange="green(id)"><br>
+       Age: <input type="text" id="Age" onchange="green(id)"><br>
+       Birthday: <input type="text" id="Birthday" onchange="green(id)">
+    </body>
+</html>
